@@ -1,1 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Language" content="en">
+
+    <!-- SEO Meta Tags for Global Audience -->
+    <title>NPRC Physiotherapy - AI-Powered Recovery & Analysis</title>
+    <meta name="description"
+        content="Your personal AI physiotherapy assistant for symptom checking, guided exercises, and advanced clinical analysis. Get started on your recovery journey today. Powered by Google Gemini.">
+    <meta name="keywords"
+        content="physiotherapy, physical therapy, AI assistant, telehealth, virtual consultation, joint pain, muscle strain, nprc, clinician tools, recovery, rehabilitation">
+
+    <!-- International SEO -->
+    <link rel="canonical" href="https://nprcphysiotherapy.co.in/">
+    <link rel="alternate" hreflang="en" href="https://nprcphysiotherapy/">
+    <link rel="alternate" hreflang="x-default" href="https://nprcphysiotherapy.co.in/">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://nprcphysiotherapy.co.in/">
+    <meta property="og:title" content="NPRC Physiotherapy - AI-Powered Recovery & Analysis">
+    <meta property="og:description"
+        content="Your personal AI physiotherapy assistant for symptom checking, guided exercises, and advanced clinical analysis.">
+    <meta property="og:image" content="https://nprcphysiotherapy.co.in/og-image.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://nprcphysiotherapy.co.in/">
+    <meta property="twitter:title" content="NPRC Physiotherapy - AI-Powered Recovery & Analysis">
+    <meta property="twitter:description"
+        content="Your personal AI physiotherapy assistant for symptom checking, guided exercises, and advanced clinical analysis.">
+    <meta property="twitter:image" content="https://nprcphysiotherapy.co.in/og-image.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+
+    <style>
+        /* Preloader styles */
+        #preloader {
+            position: fixed;
+            inset: 0;
+            background-color: #0f172a;
+            /* bg-slate-900 */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            z-index: 9999;
+            transition: opacity 0.5s ease-out;
+            opacity: 1;
+        }
+
+        #preloader.fade-out {
+            opacity: 0;
+        }
+
+        #preloader .preloader-content {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+        }
+
+        #preloader .preloader-content svg {
+            height: 3rem;
+            width: 3rem;
+            color: #22d3ee;
+            /* text-cyan-400 */
+        }
+
+        #preloader .preloader-content span {
+            font-size: 1.875rem;
+            /* text-3xl */
+            font-weight: 700;
+            /* font-bold */
+            color: white;
+        }
+
+        #preloader p {
+            color: #94a3b8;
+            /* text-slate-400 */
+            margin-top: 1rem;
+        }
+
+        @keyframes pulse {
+            50% {
+                opacity: .5;
+            }
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+    <script type="importmap">
+{
+  "imports": {
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.25.0",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "url": "https://aistudiocdn.com/url@^0.11.4",
+    "express": "https://aistudiocdn.com/express@^5.1.0",
+    "cors": "https://aistudiocdn.com/cors@^2.8.5",
+    "mariadb": "https://aistudiocdn.com/mariadb@^3.4.5"
+  }
+}
+</script>
+  <script type="module" crossorigin src="/assets/index-DIzydVhA.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-DwlXm6nn.css">
+</head>
+
+<body class="bg-slate-900 text-white antialiased">
+    <div id="preloader">
+        <div class="preloader-content">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+                stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 8v8m-4-4h8" />
+            </svg>
+            <span>NPRC Physio</span>
+        </div>
+        <p>Loading your virtual assistant...</p>
+    </div>
+    <div id="root"></div>
+</body>
+
+</html>
