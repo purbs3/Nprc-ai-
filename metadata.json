@@ -1,0 +1,8 @@
+{
+  "name": "NexusChat - AI Conversations",
+  "description": "A beautifully designed SaaS landing page and functional AI chat application powered by Google Gemini. Experience the future of conversation.",
+  "requestFramePermissions": [
+    "microphone",
+    "camera"
+  ]
+}
